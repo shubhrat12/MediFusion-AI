@@ -1,0 +1,116 @@
+{
+    "model_name": "Chronic Kidney Disease Prediction Model (Random Forest)",
+    "model_parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": 15,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 2,
+        "min_samples_split": 5,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 100,
+        "n_jobs": null,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+    },
+    "performance_metrics": {
+        "accuracy": 0.975,
+        "precision": 1.0,
+        "recall": 0.9333333333333333,
+        "f1_score": 0.9655172413793104,
+        "auc_roc": 1.0
+    },
+    "confusion_matrix": {
+        "true_negative": 50,
+        "false_positive": 0,
+        "false_negative": 2,
+        "true_positive": 28
+    },
+    "classification_report": {
+        "0": {
+            "precision": 0.9615384615384616,
+            "recall": 1.0,
+            "f1-score": 0.9803921568627451,
+            "support": 50.0
+        },
+        "1": {
+            "precision": 1.0,
+            "recall": 0.9333333333333333,
+            "f1-score": 0.9655172413793104,
+            "support": 30.0
+        },
+        "accuracy": 0.975,
+        "macro avg": {
+            "precision": 0.9807692307692308,
+            "recall": 0.9666666666666667,
+            "f1-score": 0.9729546991210277,
+            "support": 80.0
+        },
+        "weighted avg": {
+            "precision": 0.9759615384615385,
+            "recall": 0.975,
+            "f1-score": 0.9748140635564571,
+            "support": 80.0
+        }
+    },
+    "feature_importance": {
+        "age": 0.006752708033035123,
+        "bp": 0.005897255919432082,
+        "sg": 0.08822224165336427,
+        "al": 0.11301656144157894,
+        "su": 0.005115678318237577,
+        "rbc": 0.07502564839900225,
+        "pc": 0.0084536196094454,
+        "pcc": 0.0,
+        "ba": 4.054281902417039e-08,
+        "bgr": 0.023414245521780983,
+        "bu": 0.013622328456873977,
+        "sc": 0.13338330535966136,
+        "sod": 0.023156812476468176,
+        "pot": 0.007374429170485519,
+        "hemo": 0.14860849700365858,
+        "pcv": 0.1760583176511529,
+        "wc": 0.00426464463801373,
+        "rc": 0.09496528148247142,
+        "htn": 0.023691213876216328,
+        "dm": 0.041179287278368094,
+        "cad": 0.0,
+        "appet": 0.004528420785224243,
+        "pe": 0.0030794918315165285,
+        "ane": 0.00018997055119363652
+    },
+    "cross_validation": {
+        "scores": [
+            1.0,
+            1.0,
+            1.0,
+            0.9375,
+            0.9375
+        ],
+        "mean_score": 0.975,
+        "std_score": 0.03061862178478973
+    },
+    "dataset_info": {
+        "total_samples": 397,
+        "test_samples": 80,
+        "feature_count": 24,
+        "class_distribution": {
+            "train": {
+                "ckd": 198,
+                "notckd": 119
+            },
+            "test": {
+                "0": 50,
+                "1": 30
+            }
+        }
+    }
+}
