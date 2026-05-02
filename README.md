@@ -231,10 +231,15 @@ The LLM layer acts as a high-level decision-making system that:
 - Produces a holistic treatment recommendation plan
 
 ## Diagramatic Representation
+<img width="1536" height="1024" alt="447408689-9d06f2c2-81bd-4a44-823b-5d6763790725" src="https://github.com/user-attachments/assets/c42025f0-2e9d-49e0-9045-2960d319631d" />
 
 
 
 ## Usage Example
+
+
+https://github.com/user-attachments/assets/e728610c-a14f-453c-ae37-21fc6844bb09
+
 
 
 
